@@ -1,0 +1,42 @@
+{
+  "jig_name": "default",
+  "board_size_mm": 200,
+  "marker_size_mm": 40,
+  "dictionary": "DICT_4X4_50",
+  "markers": {
+    "0": {
+      "position_mm": [
+        0.0,
+        0.0
+      ],
+      "corner": "bottom-left"
+    },
+    "1": {
+      "position_mm": [
+        200.0,
+        0.0
+      ],
+      "corner": "bottom-right"
+    },
+    "2": {
+      "position_mm": [
+        200.0,
+        200.0
+      ],
+      "corner": "top-right"
+    },
+    "3": {
+      "position_mm": [
+        0.0,
+        200.0
+      ],
+      "corner": "top-left"
+    }
+  },
+  "notes": [
+    "Origin (0,0) is at bottom-left corner (ID:0)",
+    "Y-axis increases upward",
+    "X-axis increases to the right",
+    "All measurements in millimeters"
+  ]
+}
